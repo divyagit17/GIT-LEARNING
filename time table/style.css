@@ -1,0 +1,38 @@
+table{
+    width:80%;
+    border-collapse: collapse;
+    margin:20px auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+th,td{
+    border: 10px  solid #be7272;
+    padding:10px;
+    text-align: center;
+}
+
+th{
+    background-color: #cbce25;
+    color: #333;
+}
+td{
+    background-color: #56b6c7;
+    color: #000;
+}
+.break{
+    background-color: aqua;
+    font-weight: bold;
+}
+.lunch{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+.holiday{
+    background-color: lightcoral;
+    font-weight: bold;
+}
+caption{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}

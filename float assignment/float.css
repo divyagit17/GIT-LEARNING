@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  padding: 30px;
+  background: #f9f9f9;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background: hsl(315, 36%, 51%);
+  border: 1px solid #292727;
+  padding: 20px;
+}
+
+
+.content {
+  width: 60%;
+  float: left;
+  background: #d2da68;
+  padding: 15px;
+}
+
+.sidebar {
+  width: 35%;
+  float: right;
+  background: #7cb1d6;
+  padding: 15px;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  clear: both;
+  margin-top: 20px;
+  padding: 10px;
+  background: #f56f6f;
+  text-align: center;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 * {
   margin: 0;
@@ -64,3 +65,71 @@ header {
   padding: 5px 10px;
   border-radius: 50%;
 }
+=======
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  z-index: 1000;
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  margin-top: 80px; 
+}
+
+
+.sidebar {
+  position: sticky;
+  top: 80px; /* Below the header */
+  width: 200px;
+  height: 100vh;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+
+.relative-box {
+  position: relative;
+  padding: 20px;
+  background-color: #e0f7fa;
+  margin-bottom: 20px;
+}
+
+
+.notification {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+>>>>>>> e3f69e9c9685dc19e802ade5dea7f0d19d1ceabb

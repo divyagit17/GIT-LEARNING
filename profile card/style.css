@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
   font-family: Arial, sans-serif;
@@ -53,4 +54,61 @@ body {
   margin-top: 15px;
   color: #333;
 
+=======
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.profile-card {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+}
+
+.name {
+  display: block;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.title {
+  display: inline;
+  color: gray;
+  font-size: 16px;
+}
+
+.tags {
+  margin: 15px 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.contact-info {
+  display: none;
+  margin-top: 15px;
+  color: #333;
+
+>>>>>>> e3f69e9c9685dc19e802ade5dea7f0d19d1ceabb
 }

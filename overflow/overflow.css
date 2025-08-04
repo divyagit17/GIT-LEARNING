@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: #252424;
+}
+
+.news {
+  width: 400px;
+  height: 100px;
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px solid #555;
+  background-color: #8b5f5f;
+  overflow: visible; /* default */
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.auto {
+  overflow: auto;
+}
+
+.news h3 {
+  margin-bottom: 10px;
+}
